@@ -16,7 +16,6 @@ document.getElementById("signup-form").addEventListener("submit", async function
             return;
         }
 
-        // alert("Compte créé avec succès");
         window.location.href = "../login/page_login.html";
 
     } catch (error) {

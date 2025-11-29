@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(data)
             localStorage.setItem("token", data.token);
 
-            // redirection vers translate
             window.location.href = "../translate/page_translate.html";
 
         } catch (error) {
