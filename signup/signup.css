@@ -7,14 +7,13 @@ body {
   justify-content: center;
   align-items:center;
   min-height: 100vh;
-  background-image: url("/background.jpg");
+  background-image: url("/images/background.jpg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .container {
-  background: rgba(255,255,255,0.8);
   padding: 25px;
   border-radius: 10px;
   width: 320px;
@@ -32,7 +31,8 @@ input {
   margin-top: 10px;
   border: 1px solid pink;
   border-radius: 5px;
-  /* color: white; */
+  background-color: rgb(29, 12, 77);
+  color: white;
 }
 
 button {
