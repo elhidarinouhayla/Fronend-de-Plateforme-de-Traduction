@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  /* display: flex; */
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
+  background-image: url("/images/background.jpg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  color: pink;
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  padding: 8px;
+  margin-top: 10px;
+  /* background-image: url("/images/background.jpg.jpg"); */
+  /* background-size: cover; */
+  border: 1px solid pink;
+  border-radius: 5px;
+  /* color: white; */
+}
+
+button {
+  width: 320px;
+  height: 45px;
+  margin-top: 10px;
+  padding: 8px;
+  background: pink;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+} 
